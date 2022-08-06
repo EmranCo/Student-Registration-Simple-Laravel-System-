@@ -19,7 +19,7 @@
                                 <th>Region</th>
                                 <th>Mobile</th>
                                 <th>Job</th>
-                                <th>ID Card</th>
+                                <th>Badge NO</th>
                                 <th>Video</th>
                                 <th>Picture</th>
                                 <th>Poster</th>

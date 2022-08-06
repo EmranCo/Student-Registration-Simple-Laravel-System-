@@ -225,7 +225,7 @@
                                                     <div class="form-group" data-sf-role="text-field-container">
                                                         <input data-sf-role="violation-restrictions" type="hidden" value="{&quot;maxLength&quot;:&quot;10&quot;, &quot;minLength&quot;: &quot;10&quot;}">
                                                         <input data-sf-role="violation-messages" type="hidden" value="{&quot;maxLength&quot;:&quot;Mobile field must be less than 10 characters&quot;, &quot;required&quot;: &quot;Mobile field input is required&quot;, &quot;invalid&quot;: &quot;Entry is not valid!&quot;, &quot;regularExpression&quot;: &quot;Mobile field input is invalid&quot;}">
-                                                        <label class="h6" for="Textbox-4">ID Card</label>
+                                                        <label class="h6" for="Textbox-4">Badge NO</label>
                                                         <input id="Textbox-5" type="number" class="form-control" name="id_card" placeholder="xxxxxxx (Required)" value="" aria-required="true" data-sf-role="text-field-input" required="required">
                                                     </div>
                                                 </div>
