@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Queen Sara </title>
+    <title> Vocational Training Collaboration Unit Competition 2022. </title>
     <link href="./assets/css/main.min.css" rel="stylesheet" type="text/css">
     <link href="./assets/css/lightslider.min.css" rel="stylesheet" type="text/css">
     <link href="./assets/css/GLOW.css" rel="stylesheet" type="text/css">
@@ -105,50 +105,31 @@
                                                                 competition rules:</span><span style="font-size: medium"></span></strong>
                                                     </h4>
                                                     <br>
-                                                    <p><span style="font-size: large">1. The contest is open to all HR
-                                                            employees and trainees.
+                                                    <p><span style="font-size: large">                                                    
+                                                    1. The contest is open to all trainees.
+
                                                         </span>
                                                     </p>
-                                                    <p><span style="font-size: large">2. Participants must own the
-                                                            rights to the entry. Entries using copyrighted material will
-                                                            be disqualified.
+                                                    <p><span style="font-size: large">2. Participants must own the rights to the entry. Entries using copyrighted material will be disqualified.
+
                                                         </span>
                                                     </p>
-                                                    <p><span style="font-size: large">3. All entries must be in English
-                                                            and/or Arabic and of high quality.
+                                                    <p><span style="font-size: large">3. All entries must be in English and/or Arabic and of high quality.
+
                                                         </span>
                                                     </p>
-                                                    <p><span style="font-size: large">4. Entries may be the product of a
-                                                            single participant or a group of participants. Each
-                                                            participant or participant group may only submit one entry
-                                                            per category.
+                                                    <p><span style="font-size: large">4. Entries may be the product of a single participant or a group of participants. Each participant or participant group may only submit one entry per category.
+
                                                         </span>
                                                     </p>
-                                                    <p><span style="font-size: large">5. You must provide a caption
-                                                            containing the production year and the slogan of the
-                                                            campaign for your entry.
-                                                            . </span>
+                                                    <p><span style="font-size: large">5. Essays must be electronically submitted. They must be the original work of the participant and should not exceed 300 words in length.
+ </span>
                                                     </p>
-                                                    <p><span style="font-size: large">6. Posters/artwork/photos should
-                                                            be no smaller than 8.5” x 11” inches and no larger than 12”
-                                                            x 18”, and may not exceed 20MB in size.
+                                                    <p><span style="font-size: large">6. Video/audio duration must be 1 to 2 minutes, and may not exceed 20MB in size.
+
                                                         </span>
                                                     </p>
-                                                    <p><span style="font-size: large">7. Essays must be electronically
-                                                            submitted. They must be the original work of the participant
-                                                            and should not exceed 300 words in length.
-                                                        </span>
-                                                    </p>
-                                                    <p><span style="font-size: large">8. Video/audio duration must be 1
-                                                            to 2 minutes, and may not exceed 20MB in size.
-                                                        </span>
-                                                    </p>
-                                                    <p><span style="font-size: large">9. The evaluation committee
-                                                            reserves the right to disqualify any artwork due to
-                                                            incompatibility, poor quality, inappropriateness of content,
-                                                            or concerns regarding copyright infringement.
-                                                        </span>
-                                                    </p>
+                                                    
                                                 </div>
                                             </div>
                                             <div class="comp1_ctrl_cover form-group">
