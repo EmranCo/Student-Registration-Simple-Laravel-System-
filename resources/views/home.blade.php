@@ -52,7 +52,9 @@
                                     <div class="avatar-wrapper">
                                         <div class="avatar avatar-sm me-3">
                                             <a href="{{ asset('uploads/pictures/' . $student->picture) }}" target="_blank" rel="noopener noreferrer">
-                                                <img style="width: 50px;height: 50px;" src="{{ asset('uploads/pictures/' . $student->picture) }}" alt="Avatar" class="rounded-circle">
+                                            @if (isset($student->picture))
+                                            <img style="width: 50px;height: 50px;" src="{{ asset('uploads/pictures/' . $student->picture) }}" alt="Avatar" class="rounded-circle">    
+                                            @endif    
                                             </a>
                                         </div>
                                     </div>
