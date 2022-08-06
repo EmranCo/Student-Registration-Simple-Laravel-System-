@@ -73,7 +73,7 @@
                                 <div id="divAlready2" name="divAlready2" data-sf-role="form-container" class="comp1-form">
                                     <input type="hidden" data-sf-role="form-id" value="7727d807-6dcf-491c-9cdb-a3aced4ec365" name="FormId">
                                     <!-- <form action="https://glow.sapublichosting.com/tdapp/distracteddriving?sf_cntrl_id=ctl00%24Contentplaceholder1%24C002" method="POST" name="defaultFormctl00$Contentplaceholder1$C002" enctype="multipart/form-data" role="form"> -->
-                                    <form enctype="multipart/form-data" role="form" action="{{route('store')}}" method="POST">
+                                    <form enctype="multipart/form-data" role="form" action="./register_student" method="POST">
                                         @csrf
                                         <div class="form-group" data-sf-role="navigation-field-container">
                                             <input type="hidden" data-sf-role="step-of-resources" value="Step {0} of {1}">
