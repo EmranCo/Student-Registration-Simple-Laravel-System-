@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'fa';
+    src: url('../fonts/fontawesome/fontawesome-webfont.eot') format('embedded-opentype'), url('../fonts/fontawesome/fontawesome-webfont.woff2') format('woff2'), url('../fonts/fontawesome/fontawesome-webfont.ttf') format('truetype'), url('../fonts/fontawesome-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon/icomoon.eot') format('embedded-opentype'), url('../fonts/icomoon/icomoon.woff2') format('woff2'), url('../fonts/icomoon/icomoon.ttf') format('truetype'), url('../fonts/icomoon/icomoon.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'glowicons';
+    src: url('../fonts/glowicons.eot') format('embedded-opentype'), url('../fonts/glowicons.woff2') format('woff2'), url('../fonts/glowicons.ttf') format('truetype'), url('../fonts/glowicons.woff') format('woff');
+}
+@font-face {
+    font-family: 'Exo';
+    src: url('../fonts/Exo2-Light.ttf') format('truetype'),url('../fonts/Exo2-Light.eot') format('embedded-opentype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Exo';
+    src: url('../fonts/Exo2-Medium.ttf') format('truetype'),url('../fonts/Exo2-Medium.eot') format('embedded-opentype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Exo';
+    src: url('../fonts/Exo2-Regular.ttf') format('truetype'),url('../fonts/Exo2-Regular.eot') format('embedded-opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Exo';
+    src: url('../fonts/Exo2-SemiBold.ttf') format('truetype'),url('../fonts/Exo2-SemiBold.eot') format('embedded-opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url('../fonts/Exo2-Bold.ttf') format('truetype'),url('../fonts/Exo2-Bold.eot') format('embedded-opentype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Hind';
+    src: url('../fonts/Hind-Light.ttf') format('truetype'),url('../fonts/Hind-Light.eot') format('embedded-opentype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Hind';
+    src: url('../fonts/Hind-Medium.ttf') format('truetype'),url('../fonts/Hind-Medium.eot') format('embedded-opentype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Hind';
+    src: url('../fonts/Hind-Regular.ttf') format('truetype'),url('../fonts/Hind-Regular.eot') format('embedded-opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Hind';
+    src: url('../fonts/Hind-SemiBold.ttf') format('truetype'),url('../fonts/Hind-SemiBold.eot') format('embedded-opentype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Hind';
+    src: url('../fonts/Hind-Bold.ttf') format('truetype'),url('../fonts/Hind-Bold.eot') format('embedded-opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Manifa';
+    src: url('../fonts/ManifaV2/ManifaV2-Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manifa';
+    src: url('../fonts/ManifaV2/ManifaV2-Light.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manifa';
+    src: url('../fonts/ManifaV2/ManifaV2-Regular.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manifa';
+    src: url('../fonts/ManifaV2/ManifaV2-SemiBold.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manifa';
+    src: url('../fonts/ManifaV2/ManifaV2-Bold.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+

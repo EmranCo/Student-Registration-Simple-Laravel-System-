@@ -1,0 +1,429 @@
+h1, h2, h3, h4, h5, h6,strong {
+    color: #84BD00;
+}
+a {
+    color: #00A3E0
+}
+a:hover {
+    color: #00843D;
+}
+body.public.comp1-body {
+    background-color: #4d5053 !important;
+    font-size: 1rem;
+}
+
+
+.public .comp1-head {
+    background1: linear-gradient(to right,#C6007E,#00A3E0) !important;
+}
+    .public .comp1-head .site-header {
+        background: none !important;
+        padding: 15px 0px !important;
+        direction: ltr;
+        background: linear-gradient(to right,#C6007E,#00A3E0) !important;
+    }
+
+        .public .comp1-head .site-header .vertical-center {
+            display: flex;
+            align-items: center;
+            min-height: 7rem;
+        }
+
+        .public .comp1-head .site-header .vertical-horizontal-center {
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            
+        }
+
+    .public .comp1-head .logo {
+        text-align1: left;
+        padding-left: 1.5%;
+        margin: 20px 0;
+    }
+    .public .comp1-head .logo img {
+        max-width: 200px;
+    }
+
+.public .comp1-head h1 {
+    padding-top1: 4%;
+    color: #ffffff;
+    text-align: left;
+    font-size: 1.8rem;
+    margin-left: 10px;
+    font-family: 'Manifa';
+    font-weight: 300;
+    font-size: 2.4rem;
+    line-height:0.8;
+    margin-bottom: 0;
+}
+
+
+.public .comp1-head h1[dir=rtl] {
+    margin-left: 0%;
+    margin-right:10px;
+    text-align: right;
+    font-size:2.2rem;
+}
+
+
+.public .comp1-head h1 span {
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+.public .comp1-head h1 span.top-title {
+    font-size:1.9rem;
+    font-weight:100;
+}
+.public .container
+{
+    padding:0 !important;
+}
+.public .comp1-container .container
+{
+    background-color:#ffffff;
+}
+
+.public .comp1-container .lang-wrap  .sf-lang-selector a.selected
+{
+    background:none;
+}
+
+.public .comp1-container .lang-wrap ul {
+    padding:5px 15px;
+    margin-bottom: 0px;
+}
+
+.public .comp1-container h3 {
+    color: #4d5053;
+    font-family: 'Manifa';
+    font-weight: 200;
+    font-size: 2.2rem;
+}
+
+    .public .comp1-container h3 strong {
+        background1: linear-gradient(to right,#C6007E,#00A3E0);
+        -webkit-background-clip1: text;
+        -webkit-text-fill-color1: transparent;
+        color: #C6007E;
+        font-weight: 400;
+        font-size: 2.6rem;
+    }
+
+    .public .comp1-container h3 strong {
+        color: #00A3E0;
+    }
+
+.public .comp1-container .category-list-bullets,
+.public .comp1-container .category-list-bullets ul{
+    padding-left: 1em;
+}
+
+.public .comp1-container ul.category-list-bullets li,
+.public .comp1-container ol.category-list-bullets ul li {
+    list-style: disc;
+}
+
+.public .comp1-container ol.category-list-bullets li {
+    list-style: decimal;
+}
+
+
+
+.public .comp1-container ul.category-list{
+   
+}
+
+
+
+
+
+
+.public .comp1-container ul.category-list {
+    list-style: none; /* Remove default bullets */
+    padding-left1:1em;
+}
+
+    .public .comp1-container ul.category-list li::before {
+        content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: #84BD00; /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left1: -1em; /* Also needed for space (tweak if needed) */
+    }
+
+.public .comp1-form {
+    padding-top: 1rem;
+}
+
+
+
+    .public .comp1-form .login-control, .comp1-form .form-control {
+        padding: 0px 0px 0px 10px !important;
+        border: 1px solid #ced4da;
+    }
+
+
+    .public .comp1-form .sf-fieldWrp {
+        margin-bottom: 1rem;
+        
+    }
+        .public .comp1-form .sf-fieldWrp label {
+            font-size: 1rem;
+            font-weight: 500;
+            line-height:1.2;
+        }
+        .public .comp1-form .sf-fieldWrp input {
+            background-color: #fff !important;
+            border: none;
+            display: block;
+            width: 100%;
+            height: calc(2.25rem + 2px);
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border-radius: .25rem;
+            transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+        }
+
+            .public .comp1-form .sf-fieldWrp input::placeholder {
+                color: #521589;
+            }
+
+    .public .comp1-form input[type=file].sf-FileField-input {
+        max-width: 100%;
+        font-size: 0.9rem;
+    }
+
+
+.public .comp1-form .form-control {
+    font-size: 1rem;
+}
+
+
+ .public .comp1-form .form-control::placeholder,
+ .public .comp1-form .sf-fieldWrp input::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #495057 !important;
+    opacity: 1; /* Firefox */
+}
+
+    .public .comp1-form .form-control:-ms-input-placeholder,
+    .public .comp1-form .sf-fieldWrp input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #495057 !important;        
+    }
+
+    .public .comp1-form .form-control::-ms-input-placeholder,
+    .public .comp1-form .sf-fieldWrp input::-ms-input-placeholder { /* Microsoft Edge */
+        color: #495057 !important;
+    }
+
+.public .comp1-form label.btn-file {
+    height: calc(2.25rem + 2px);
+    /* background-color: #00a3e0; */
+    border-radius: 1.12rem;
+    display: inline-block;
+    line-height: 2.2rem;
+    padding: 0 1rem;
+    border: 1px solid #00a3e0;
+    box-shadow: 0px 2px 5px rgba(0, 163, 224, 0.3);
+    cursor:pointer;
+    transition:.25s all;
+}
+
+    .public .comp1-form label.btn-file:hover {
+       background-color: #00a3e0;
+       color:#ffffff;
+    }
+
+
+.public .comp1-container p {
+    text-align: left;
+}
+
+
+
+
+
+.public .comp1-container .comp1_ctrl_cover {
+    padding:0 15px;
+    padding-top: 3%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.public .comp1-container .comp1_ctrl_cover a,
+.public .comp1-container .comp1-submit a {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+    color: #ffffff;
+    top: 0;
+    margin: 0px 0px;
+}
+    .public .comp1-container .comp1_ctrl_cover .btn-secondary,
+    .public .comp1-container .comp1_ctrl_cover a,
+    .public .comp1-container .comp1-submit a,
+    .public .comp1-container .sf-SubmitButton.btn-primary {
+        transition: .25s all;
+    }
+.public .comp1-container .comp1_ctrl_cover .btn-secondary:before,
+.public .comp1-container .comp1_ctrl_cover a:before,
+.public .comp1-container .comp1-submit a:before,
+.public .comp1-container .sf-SubmitButton.btn-primary:before {
+    position: absolute;
+    display: block;
+    transform: skew(30deg) !important;
+    content: "";
+    top: 0;
+    left: 0px;
+    right: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #5EA549 !important;
+    background-color: #00A3E0 !important;
+    z-index: -1;
+    border-radius: 0 !important;
+    border:1px solid transparent;
+    transition:.25s all;
+}
+
+    .public .comp1-container .comp1_ctrl_cover .btn-secondary:hover,
+    .public .comp1-container .comp1_ctrl_cover a:hover,
+    .public .comp1-container .comp1-submit a:hover,
+    .public .comp1-container .sf-SubmitButton.btn-primary:hover {
+        color:  #00A3E0;
+    }
+
+        .public .comp1-container .comp1_ctrl_cover a:hover {
+            color: #C6007E;
+        }
+ 
+    .public .comp1-container .comp1_ctrl_cover .btn-secondary:hover:before,
+    .public .comp1-container .comp1_ctrl_cover a:hover:before,
+    .public .comp1-container .comp1-submit a:hover:before,
+    .public .comp1-container .sf-SubmitButton.btn-primary:hover:before {
+        background-color: #FFFFFF !important;
+        border: 1px solid #00A3E0;
+    }
+
+
+
+
+.public .comp1-container .comp1_ctrl_cover a:before {
+    background-color: #C6007E !important;
+}
+
+.public .comp1-container .comp1_ctrl_cover a:hover:before {
+    border: 1px solid #C6007E;
+}
+
+[lang=ar] .public .comp1-container .comp1_ctrl_cover .btn-secondary:before,
+[lang=ar] .public .comp1-container .comp1_ctrl_cover a:before,
+[lang=ar] .public .comp1-container .comp1-submit a:before,
+[lang=ar] .public .comp1-container .sf-SubmitButton.btn-primary:before {
+    transform: skew(-30deg) !important;
+    left: 20px;
+    right: 0px;
+}
+
+
+.public .comp1-container .sf-SubmitButton.btn-primary {
+    background-color: transparent !important;
+    font-size: 1rem !important;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0 !important;
+    padding: .375rem .75rem !important;
+    margin:0;
+}
+  
+.public .comp1-container .dot_hide legend {
+    display: none;
+}
+.public .comp1-container .dot_hide ul li label {
+    font-size:1rem;
+    font-weight:500;
+}
+
+.public #footer-comp
+{
+    margin-top:0px !important;
+}
+
+.public .comp1-footer {
+    padding-top:15px !important;
+    padding-bottom: 0px !important;
+    background-color: #343537 !important;
+    background-color: #4d5053 !important;
+    background-color: #C0C0C0 !important;
+    background: linear-gradient(to right,#C6007E,#00A3E0) !important;
+}
+
+.public .comp1-footer p{
+    margin-bottom:12px;
+}
+
+.public .comp1-footer p.right{
+    margin-top:-4px;
+}
+
+[lang=ar] .public .comp1-footer p.right {
+    text-align:left;
+}
+    /*Error Message*/
+    .public .comp1-container [data-sf-role="error-message"], .public .comp1-container .text-danger {
+    color: #808080 !important;
+    font-size: 0.8rem;
+}
+
+
+@media all and (max-width: 767px) {
+    .site-footer p.right {
+        text-align: right;
+    }
+}
+@media all and (max-width: 575px) {
+    .site-footer p {
+        text-align: center !important ;
+        
+    }
+}
+
+
+    /*text gradient*/
+
+    .public .comp1-container .text-gradient {
+        margin: 0;
+        position: relative;
+        width: 100%;
+    }
+
+        .public .comp1-container .text-gradient svg {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            font: bold 100px sans-serif;
+            text-transform: uppercase;
+        }
+
+            .public .comp1-container .text-gradient svg .gradient-layer {
+                fill: url(#gr-overlay);
+            }
