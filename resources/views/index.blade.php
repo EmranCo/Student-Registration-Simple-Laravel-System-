@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Vocational Training Collaboration Unit Competition 2022. </title>
+    <title> Competition VTCU </title>
     <link href="./assets/css/main.min.css" rel="stylesheet" type="text/css">
     <link href="./assets/css/lightslider.min.css" rel="stylesheet" type="text/css">
     <link href="./assets/css/GLOW.css" rel="stylesheet" type="text/css">
@@ -367,7 +367,7 @@
                     <div class="container">
                         <div class="row">
                             <div id="Contentplaceholder1_TF1CD8807091_Col00" class="sf_colsIn copyright col text-center" data-sf-element="Column 1" data-placeholder-label="Column 1">
-                                <p>Copyright &copy; All Rights Reserved by Queen Sara 2022.</p>
+                                <p>Copyright &copy; All Rights Reserved by Vocational Training Collaboration Unit Competition 2022.</p>
                             </div>
                             <em class="glyphicon glyphicon-earphone"></em>
                         </div>
