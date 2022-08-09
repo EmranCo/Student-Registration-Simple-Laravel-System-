@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\StudentController;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\URL;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,9 +14,6 @@ use Illuminate\Support\Facades\URL;
 |
 */
 
-if (env('APP_ENV') === 'production') {
-    URL::forceSchema('https');
-}
 
 Route::get('/', [StudentController::class,'index'])->name('index');
 Route::post('/register_student', [StudentController::class,'store'])->name('store');
