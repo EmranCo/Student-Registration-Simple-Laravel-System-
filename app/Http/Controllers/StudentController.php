@@ -68,7 +68,7 @@ class StudentController extends Controller
             'article' => $article,
         ]))
         // dd('Registered Successfully');
-            return back()->with('success' , 'You Information Registered Successfully');
+            return back()->with('success' , 'Thank you, your request has been sent successfully');
             return back()->with('error' , 'Oops ! <br> an error occured while register your information');
     }
 
