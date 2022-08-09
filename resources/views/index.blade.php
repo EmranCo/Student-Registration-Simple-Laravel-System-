@@ -40,7 +40,7 @@
                     <div>
                         <div>
                             <div>
-                                <img class="site-header" alt="logo" src="./assets/img/header2.jpeg">
+                                <img class="site-header" alt="logo" src="./assets/img/H1.png">
                                 <div class="container1">
                                     <div class="row"></div>
                                 </div>
