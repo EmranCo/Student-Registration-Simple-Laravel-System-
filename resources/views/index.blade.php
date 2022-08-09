@@ -370,7 +370,7 @@
                                             </div>
                                             <div class="comp1_ctrl_cover form-group">
                                                 <a href="javascript:void(0)" data-sf-btn-role="prev">Previous </a>
-                                                <button type="submit" class="sf-SubmitButton btn btn-primary">Submit</button>
+                                                <button type="submit" onclick="$(this).text('Submitting...')" class="sf-SubmitButton btn btn-primary">Submit</button>
                                             </div>
                                         </div>
                                     </form>
