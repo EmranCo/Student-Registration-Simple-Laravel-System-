@@ -20,6 +20,24 @@
             padding: 0px 0px !important;
             direction: ltr;
         }
+
+        #img_head {
+            margin-top: 3rem !important;
+        }
+
+        @media screen and (max-width:600px) {
+            .public .comp1-head .site-header {
+                height: 35vw;
+            }
+
+            #img_head {
+                margin-top: 1.2rem !important;
+            }
+
+            .public .comp1-container h3 strong {
+                font-size: 2rem;
+            }
+        }
     </style>
     <script src="./assets/js/main.min.js" type="text/javascript"></script>
     <script src="./assets/js/main1.min.js" type="text/javascript"></script>
@@ -34,7 +52,7 @@
 
 <body class="public comp1-body">
 
-    
+
     <div>
         <div class="row p-0 comp1-head" data-sf-element="Row">
             <div id="Contentplaceholder1_T760BED14078_Col00" class="sf_colsIn col-lg-12 p-0" data-sf-element="Column 1" data-placeholder-label="Column 1">
@@ -64,7 +82,8 @@
                             <div id="Contentplaceholder1_C008_Col00" class="sf_colsIn offset-1 col-lg-10" data-sf-element="Column 1" data-placeholder-label="Column 1">
                                 <div>
                                     <div>
-                                        <h3 align="center" style="text-align: center"><strong><em><br></em>Distracted
+                                        <h3 align="center" style="text-align: center" id="img_head" class="mt-5"><strong>
+                                                Distracted
                                                 Driver Campaign</strong>
                                         </h3>
                                         <h4 style="text-align: center"><strong><span style="font-size: x-large"><br></span><span style="font-size: large">Best creative content
