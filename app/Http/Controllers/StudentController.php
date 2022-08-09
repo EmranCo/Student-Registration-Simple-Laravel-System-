@@ -67,8 +67,9 @@ class StudentController extends Controller
             'poster' => $poster,
             'article' => $article,
         ]))
-            return redirect()->route('index')->with(['success' , 'Registered Successfully']);
-            return redirect()->route('index')->with(['error' , 'Cannot Register !!!']);
+        // dd('Registered Successfully');
+            return back()->with('success' , 'You Information Registered Successfully');
+            return back()->with('error' , 'Oops ! <br> an error occured while register your information');
     }
 
     /**

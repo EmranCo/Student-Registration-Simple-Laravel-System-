@@ -29,10 +29,12 @@
     <script>
         var dynamicItemTitle = "";
     </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <body class="public comp1-body">
 
+    
     <div>
         <div class="row p-0 comp1-head" data-sf-element="Row">
             <div id="Contentplaceholder1_T760BED14078_Col00" class="sf_colsIn col-lg-12 p-0" data-sf-element="Column 1" data-placeholder-label="Column 1">
@@ -105,8 +107,8 @@
                                                                 competition rules:</span><span style="font-size: medium"></span></strong>
                                                     </h4>
                                                     <br>
-                                                    <p><span style="font-size: large">                                                    
-                                                    1. The contest is open to all trainees.
+                                                    <p><span style="font-size: large">
+                                                            1. The contest is open to all trainees.
 
                                                         </span>
                                                     </p>
@@ -123,13 +125,13 @@
                                                         </span>
                                                     </p>
                                                     <p><span style="font-size: large">5. Essays must be electronically submitted. They must be the original work of the participant and should not exceed 300 words in length.
- </span>
+                                                        </span>
                                                     </p>
                                                     <p><span style="font-size: large">6. Video/audio duration must be 1 to 2 minutes, and may not exceed 20MB in size.
 
                                                         </span>
                                                     </p>
-                                                    
+
                                                 </div>
                                             </div>
                                             <div class="comp1_ctrl_cover form-group">

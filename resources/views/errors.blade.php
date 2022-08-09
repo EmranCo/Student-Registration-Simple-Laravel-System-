@@ -1,10 +1,16 @@
 @if ($errors->any())
+@php
+$message = "";
+@endphp
 @foreach ($errors->all() as $error)
-<div class="alert alert-danger alert-dismissible" role="alert">
-    <h6 class="alert-heading d-flex align-items-center fw-bold mb-1">Error!!</h6>
-    <p class="mb-0">{{ $error }}</p>
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-    </button>
-</div>
+{{$message .= $error . "<br>" ; }}
 @endforeach
+<script>
+        swal({
+            title: "Uncompleted Operation",
+            text: "{{$message}}",
+            icon: "error",
+            button: "Retry",
+        });
+    </script>
 @endif
