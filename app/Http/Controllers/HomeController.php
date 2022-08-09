@@ -24,8 +24,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home',[
+        return view('home', [
             'students' => Student::all()
         ]);
+    }
+
+    public function destroy($id)
+    {
+        if (Student::find($id)->delete())
+            return back()->with('success', 'Student Deleted Successfully');
+        return back()->with('error', 'Oops ! <br> an error occured while deleting student');
     }
 }
