@@ -41,17 +41,25 @@ class StudentController extends Controller
         $poster = "";
         $article = "";
 
-        if ($request->hasFile('video') && $request->file('video')->isValid())
+        if ($request->hasFile('video') && $request->file('video')->isValid()) {
+            $request->validate(['video' => 'max:20480']);
             $video = UploadingUtils::storeImage($request->video, 'uploads/videos');
+        }
 
-        if ($request->hasFile('picture') && $request->file('picture')->isValid())
+        if ($request->hasFile('picture') && $request->file('picture')->isValid()) {
+            $request->validate(['picture' => 'max:20480']);
             $picture = UploadingUtils::storeImage($request->picture, 'uploads/pictures');
+        }
 
-        if ($request->hasFile('poster') && $request->file('poster')->isValid())
+        if ($request->hasFile('poster') && $request->file('poster')->isValid()) {
+            $request->validate(['poster' => 'max:20480']);
             $poster = UploadingUtils::storeImage($request->poster, 'uploads/posters');
+        }
 
         if ($request->hasFile('article') && $request->file('article')->isValid())
+            $request->validate(['article' => 'max:20480']); {
             $article = UploadingUtils::storeImage($request->article, 'uploads/articles');
+        }
 
         if (Student::create([
             'name' => $request->name,
@@ -67,9 +75,9 @@ class StudentController extends Controller
             'poster' => $poster,
             'article' => $article,
         ]))
-        // dd('Registered Successfully');
-            return back()->with('success' , 'Thank you, your request has been sent successfully');
-            return back()->with('error' , 'Oops ! <br> an error occured while register your information');
+            // dd('Registered Successfully');
+            return back()->with('success', 'Thank you, your request has been sent successfully');
+        return back()->with('error', 'Oops ! <br> an error occured while register your information');
     }
 
     /**
