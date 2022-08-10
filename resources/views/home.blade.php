@@ -43,7 +43,7 @@
                                 <td>
                                     <div class="avatar-wrapper">
                                         <div class="avatar avatar-sm me-3">
-                                            <a href="{{ asset('uploads/videos/' . $student->video) }}" target="_blank" rel="noopener noreferrer">
+                                            <a href="{{ secure_asset('uploads/videos/' . $student->video) }}" target="_blank" rel="noopener noreferrer">
                                                 {{ $student->video}}
                                             </a>
                                         </div>
@@ -52,9 +52,9 @@
                                 <td>
                                     <div class="avatar-wrapper">
                                         <div class="avatar avatar-sm me-3">
-                                            <a href="{{ asset('uploads/pictures/' . $student->picture) }}" target="_blank" rel="noopener noreferrer">
+                                            <a href="{{ secure_asset('uploads/pictures/' . $student->picture) }}" target="_blank" rel="noopener noreferrer">
                                                 @if ($student->picture)
-                                                <img style="width: 50px;height: 50px;" src="{{ asset('uploads/pictures/' . $student->picture) }}" alt="Avatar" class="rounded-circle">
+                                                <img style="width: 50px;height: 50px;" src="{{ secure_asset('uploads/pictures/' . $student->picture) }}" alt="Avatar" class="rounded-circle">
                                                 @endif
                                             </a>
                                         </div>
@@ -63,7 +63,7 @@
                                 <td>
                                     <div class="avatar-wrapper">
                                         <div class="avatar avatar-sm me-3">
-                                            <a href="{{ asset('uploads/posters/' . $student->poster) }}" target="_blank" rel="noopener noreferrer">
+                                            <a href="{{ secure_asset('uploads/posters/' . $student->poster) }}" target="_blank" rel="noopener noreferrer">
                                                 {{ $student->poster }}
                                             </a>
                                         </div>
@@ -72,7 +72,7 @@
                                 <td>
                                     <div class="avatar-wrapper">
                                         <div class="avatar avatar-sm me-3">
-                                            <a href="{{ asset('uploads/articles/' . $student->article) }}" target="_blank" rel="noopener noreferrer">
+                                            <a href="{{ secure_asset('uploads/articles/' . $student->article) }}" target="_blank" rel="noopener noreferrer">
                                                 {{$student->article }}
                                             </a>
                                         </div>
