@@ -32,10 +32,6 @@ class StoreStudentRequest extends FormRequest
             'mobile' => 'required',
             'job' => 'required',
             'id_card' => 'required',
-            'video' => 'nullable',
-            'picture' => 'nullable',
-            'poster' => 'nullable',
-            'article' => 'nullable',
         ];
     }
 }
