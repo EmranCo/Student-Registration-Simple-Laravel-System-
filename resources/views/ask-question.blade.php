@@ -2,7 +2,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 <!-- <embed src="/assets/Sound.mp3" loop="true" autostart="true" width="2" height="0"> -->
 
-
 <!-- Modal -->
 <div class="modal fade" id="ask_question" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog  text-right" style="font-size: x-large;">
@@ -14,7 +13,7 @@
                 <div class="row">
                     <div class="col mb-2">
                         <p class="mb-2">
-                        في اي عام اكتشف النفط في السعودية؟
+                            في اي عام اكتشف النفط في السعودية؟
                         </p>
                     </div>
                 </div>
@@ -34,19 +33,24 @@
 
 <script>
     $(document).ready(function() {
-        if(localStorage.getItem('answerd') != "1")
-        $("#ask_question").modal('show');
+        var audioElement = document.createElement('audio');
+            audioElement.setAttribute('src', './assets/Sound.mp3');
+
+            audioElement.addEventListener('ended', function() {
+                this.play();
+            }, false);
+
+        if (localStorage.getItem('isAnswerd') != "1")
+            $("#ask_question").modal('show');
 
         $('#btn_answer').click(function() {
-            if ($('#answer').val() == "1937")
-                {
-                    localStorage.setItem("answerd",1);
-                    $("#ask_question").modal('hide');
-                    $("#success").modal('show');
-                }
-            else
-            {
-                localStorage.setItem("answerd",0);
+            if ($('#answer').val() == "1937") {
+                localStorage.setItem("isAnswerd", 1);
+                $("#ask_question").modal('hide');
+                $("#success").modal('show');
+                audioElement.play();
+            } else {
+                localStorage.setItem("isAnswerd", 0);
                 $("#faild").modal('show');
             }
 

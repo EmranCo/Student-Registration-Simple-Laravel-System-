@@ -52,11 +52,7 @@
 
 <body class="public comp1-body">
 
-<audio loop="true"  autoplay>
-  <source src="{{ asset('assets/Sound.mp3')}}" type="audio/mpeg">
-</audio>
-
-@include('ask-question')
+    @include('ask-question')
     <div>
         <div class="row p-0 comp1-head" data-sf-element="Row">
             <div id="Contentplaceholder1_T760BED14078_Col00" class="sf_colsIn col-lg-12 p-0" data-sf-element="Column 1" data-placeholder-label="Column 1">
@@ -491,7 +487,6 @@
         });
         //HitsCount();
     </script>
-
 </body>
 
 </html>
