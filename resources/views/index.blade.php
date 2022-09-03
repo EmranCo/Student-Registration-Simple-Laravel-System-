@@ -52,6 +52,10 @@
 
 <body class="public comp1-body">
 
+<audio loop="true"  autoplay>
+  <source src="{{ asset('assets/Sound.mp3')}}" type="audio/mpeg">
+</audio>
+
 @include('ask-question')
     <div>
         <div class="row p-0 comp1-head" data-sf-element="Row">
