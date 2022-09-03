@@ -80,14 +80,11 @@
                     <div id="Contentplaceholder1_C005_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container">
                         <div class="row" data-sf-element="Row">
                             <div id="Contentplaceholder1_C008_Col00" class="sf_colsIn offset-1 col-lg-10" data-sf-element="Column 1" data-placeholder-label="Column 1">
-                                <div>
+                            <div>
                                     <div>
-                                        <h3 align="center" style="text-align: center" id="img_head" class="mt-5"><strong>
-                                                Distracted
-                                                Driver Campaign</strong>
+                                        <h3 align="center" style="text-align: center"><strong><em><br></em>Saudi National Day 92</strong>
                                         </h3>
-                                        <h4 style="text-align: center"><strong><span style="font-size: x-large"><br></span><span style="font-size: large">Best creative content
-                                                    competition</span><span style="font-size: medium"> </span><span style="font-size: medium"></span></strong>
+                                        <h4 style="text-align: center"><strong><span style="font-size: x-large"><br></span><span style="font-size: large">The best creative content competition for the 92nd National Day</span><span style="font-size: medium"> </span><span style="font-size: medium"></span></strong>
                                         </h4>
                                     </div>
                                 </div>
