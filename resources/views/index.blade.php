@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Competition VTCU </title>
+    <title> VTCU </title>
     <link href="./assets/css/main.min.css" rel="stylesheet" type="text/css">
     <link href="./assets/css/lightslider.min.css" rel="stylesheet" type="text/css">
     <link href="./assets/css/GLOW.css" rel="stylesheet" type="text/css">
@@ -60,7 +60,7 @@
                     <div>
                         <div>
                             <div>
-                                <img class="site-header" alt="logo" src="./assets/img/H1.png">
+                                <img class="site-header" alt="logo" src="./assets/img/header4.png">
                                 <div class="container1">
                                     <div class="row"></div>
                                 </div>
