@@ -1,4 +1,4 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 <!-- <embed src="/assets/Sound.mp3" loop="true" autostart="true" width="2" height="0"> -->
 
@@ -10,18 +10,18 @@
             <div class="modal-header">
                 <h5 class="modal-title" id="staticBackdropLabel">Answer This Question</h5>
             </div>
-            <div class="modal-body">
+            <div class="modal-body text-right">
                 <div class="row">
                     <div class="col mb-2">
-                        <p class="mb-2" dir="rtl">
+                        <p class="mb-2">
                         في اي عام اكتشف النفط في السعودية؟
                         </p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col mb-3">
-                        <label for="answer" class="form-label">Answer</label>
-                        <input type="text" id="answer" class="form-control" placeholder="Write the answer here">
+                        <label for="answer" class="form-label">الإجابة</label>
+                        <input type="number" id="answer" class="form-control text-right" placeholder="اكتب الإجابة هنا">
                     </div>
                 </div>
             </div>
