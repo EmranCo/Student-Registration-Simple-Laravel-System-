@@ -164,3 +164,13 @@
 		</div>
 	</div>
 </div> 
+
+<div id="thanks" class="modal fade">
+	<div class="modal-dialog modal-confirm">
+		<div class="modal-content">
+			<div class="modal-body">
+				<p class="text-center">Thank you</p>
+			</div>
+		</div>
+	</div>
+</div> 
