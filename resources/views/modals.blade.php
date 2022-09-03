@@ -132,13 +132,13 @@
 				<div class="icon-box">
 					<i class="material-icons">&#xE876;</i>
 				</div>				
-				<h4 class="modal-title w-100">Greate</h4>	
+				<h4 class="modal-title w-100">أحســـنت</h4>	
 			</div>
 			<div class="modal-body">
-				<p class="text-center">Your Answer Is Correct</p>
+				<p class="text-center">إجابتك صحيحة</p>
 			</div>
 			<div class="modal-footer">
-				<button class="btn btn-success btn-block" data-bs-dismiss="modal">OK</button>
+				<button class="btn btn-success btn-block" data-bs-dismiss="modal">حسنا</button>
 			</div>
 		</div>
 	</div>
@@ -151,15 +151,15 @@
 				<div class="icon-box">
 					<i class="material-icons">&#xE5CD;</i>
 				</div>				
-				<h4 class="modal-title w-100">Sorry!</h4>	
+				<h4 class="modal-title w-100">عذرا !</h4>	
 			</div>
 			<div class="modal-body">
-				<p class="text-center">Your answer is incorrect !. 
+				<p class="text-center">إجابتك غير صحيحة!. 
                     <br> 
-                    Please try again.</p>
+                    برجاء المحاولة مرة اخرى.</p>
 			</div>
 			<div class="modal-footer">
-				<button class="btn btn-danger btn-block" data-bs-dismiss="modal">OK</button>
+				<button class="btn btn-danger btn-block" data-bs-dismiss="modal">حسنا</button>
 			</div>
 		</div>
 	</div>
