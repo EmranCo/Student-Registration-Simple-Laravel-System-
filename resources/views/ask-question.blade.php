@@ -33,15 +33,23 @@
 
 <script>
     $(document).ready(function() {
-        var audioElement = document.createElement('audio');
-            audioElement.setAttribute('src', './assets/Sound.mp3');
 
-            audioElement.addEventListener('ended', function() {
-                this.play();
-            }, false);
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/Sound.mp3');
+
+        audioElement.addEventListener('ended', function() {
+            this.play();
+        }, false);
 
         if (localStorage.getItem('isAnswerd') != "1")
             $("#ask_question").modal('show');
+
+        $('body').mouseover(function() {
+            if (localStorage.getItem('isAnswerd') == "1")
+                if (audioElement.paused)
+                    audioElement.play();
+
+        })
 
         $('#btn_answer').click(function() {
             if ($('#answer').val() == "1937") {
