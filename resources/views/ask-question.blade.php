@@ -13,8 +13,8 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col mb-2">
-                        <p class="mb-2">
-                            What is your name ?
+                        <p class="mb-2" dir="rtl">
+                        في اي عام اكتشف النفط في السعودية؟
                         </p>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
         $("#ask_question").modal('show');
 
         $('#btn_answer').click(function() {
-            if ($('#answer').val() == "Sara")
+            if ($('#answer').val() == "1937")
                 {
                     localStorage.setItem("answerd",1);
                     $("#ask_question").modal('hide');
