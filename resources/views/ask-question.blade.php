@@ -44,8 +44,8 @@
             $("#ask_question").modal('show');
 
         $('body').mouseover(function() {
-                if (audioElement.paused)
-                    audioElement.play();
+                // if (audioElement.paused)
+                //     audioElement.play();
 
         })
 
