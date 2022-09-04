@@ -41,11 +41,9 @@
             this.play();
         }, false);
 
-        if (localStorage.getItem('isAnswerd') != "1")
             $("#ask_question").modal('show');
 
         $('body').mouseover(function() {
-            if (localStorage.getItem('isAnswerd') == "1")
                 if (audioElement.paused)
                     audioElement.play();
 
@@ -53,12 +51,10 @@
 
         $('#btn_answer').click(function() {
             if ($('#answer').val() == "1937") {
-                localStorage.setItem("isAnswerd", 1);
                 $("#ask_question").modal('hide');
                 $("#success").modal('show');
                 audioElement.play();
             } else {
-                localStorage.setItem("isAnswerd", 0);
                 $("#faild").modal('show');
             }
 
