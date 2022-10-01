@@ -94,7 +94,7 @@
                                 <div id="divAlready2" name="divAlready2" data-sf-role="form-container" class="comp1-form">
                                     <input type="hidden" data-sf-role="form-id" value="7727d807-6dcf-491c-9cdb-a3aced4ec365" name="FormId">
                                     <!-- <form action="https://glow.sapublichosting.com/tdapp/distracteddriving?sf_cntrl_id=ctl00%24Contentplaceholder1%24C002" method="POST" name="defaultFormctl00$Contentplaceholder1$C002" enctype="multipart/form-data" role="form"> -->
-                                    <form enctype="multipart/form-data" role="form" action="./register_student" method="POST">
+                                    <form id="form_submit" enctype="multipart/form-data" role="form" action="./register_student" method="POST">
                                         @csrf
                                         <div class="form-group" data-sf-role="navigation-field-container">
                                             <input type="hidden" data-sf-role="step-of-resources" value="Step {0} of {1}">
@@ -207,7 +207,7 @@
                                                         <input data-sf-role="violation-restrictions" type="hidden" value="{&quot;maxLength&quot;:&quot;255&quot;, &quot;minLength&quot;: &quot;0&quot;}">
                                                         <input data-sf-role="violation-messages" type="hidden" value="{&quot;maxLength&quot;:&quot;Age field must be less than 255 characters&quot;, &quot;required&quot;: &quot;Age field input is required&quot;, &quot;invalid&quot;: &quot;Entry is not valid!&quot;, &quot;regularExpression&quot;: &quot;Age field input is invalid&quot;}">
                                                         <label class="h6" for="Textbox-3">Age</label>
-                                                        <input id="Textbox-3" type="text" class="form-control" name="age" placeholder="Age (Required)" value="" aria-required="true" data-sf-role="text-field-input" required="required" pattern=".{0,255}">
+                                                        <input id="Textbox-3" type="number" class="form-control" name="age" placeholder="Age (Required)" value="" aria-required="true" data-sf-role="text-field-input" required="required" pattern=".{0,255}">
                                                     </div>
                                                 </div>
                                             </div>
@@ -235,7 +235,7 @@
                                                         <input data-sf-role="violation-restrictions" type="hidden" value="{&quot;maxLength&quot;:&quot;10&quot;, &quot;minLength&quot;: &quot;10&quot;}">
                                                         <input data-sf-role="violation-messages" type="hidden" value="{&quot;maxLength&quot;:&quot;Mobile field must be less than 10 characters&quot;, &quot;required&quot;: &quot;Mobile field input is required&quot;, &quot;invalid&quot;: &quot;Entry is not valid!&quot;, &quot;regularExpression&quot;: &quot;Mobile field input is invalid&quot;}">
                                                         <label class="h6" for="Textbox-4">Mobile</label>
-                                                        <input id="Textbox-4" type="text" class="form-control" name="mobile" placeholder="050xxxxxxx (Required)" value="" aria-required="true" data-sf-role="text-field-input" required="required" pattern=".{10,10}">
+                                                        <input id="Textbox-4" type="tel" class="form-control" name="mobile" placeholder="050xxxxxxx (Required)" value="" aria-required="true" data-sf-role="text-field-input" required="required" pattern=".{10,10}">
                                                     </div>
                                                 </div>
                                             </div>
@@ -370,7 +370,7 @@
                                             </div>
                                             <div class="comp1_ctrl_cover form-group">
                                                 <a href="javascript:void(0)" data-sf-btn-role="prev">Previous </a>
-                                                <button type="submit" onclick="$(this).text('Submitting...')" class="sf-SubmitButton btn btn-primary">Submit</button>
+                                                <button id="submit_btn" type="submit" class="sf-SubmitButton btn btn-primary">Submit</button>
                                             </div>
                                         </div>
                                     </form>
@@ -481,6 +481,28 @@
                     var msg = error;
                     if (!window.console) var console = window.console = {};
                     //console.log(error);
+                }
+            });
+
+        });
+
+        $(document).ready(function() {
+            $('#form_submit').submit(function(e) {
+
+                if ($('#FileUpload-1').get(0).files.length === 0 &&
+                    $('#FileUpload-2').get(0).files.length === 0) {
+
+                    e.preventDefault();
+                    alert('Choose Picture Or Video Please');
+                    $('#FileUpload-1').focus();
+                    $('#FileUpload-2').focus();
+                    setTimeout(function() {
+
+                        $('#submit_btn').removeAttr('disabled');
+                    }, 100)
+                } else {
+                    $('#submit_btn').text('Submitting...');
+                    $('#submit_btn').attr('disabled', 'disabled');
                 }
             });
 
